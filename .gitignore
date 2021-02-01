@@ -1,2 +1,4 @@
+/public/project/*
+/public/about/*
 /vendor/
 composer.lock

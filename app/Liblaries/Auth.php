@@ -123,7 +123,7 @@
 								        	 	->from(" {$table} a ")
 								        	 	->where(" a.{$user_field} ", $username)
 								        	 	->get();
-
+                                                
 			$count_auth 				= $cek_auth->num_rows;
 
 			/* If username exsist */

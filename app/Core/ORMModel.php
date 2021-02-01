@@ -125,7 +125,7 @@
 
             foreach($data as $f=>$r)
             {
-                array_push($r1,$f."="."'".$r."'");
+                array_push($r1,$f."=".'"'.$r.'"');
             }
 
             $key            = array_keys($tabel_id);

@@ -17,6 +17,11 @@
 		return ob_get_clean();
 	}
 
+	function alert($alert)
+	{
+		echo "<script>alert('{$alert}')</script>";
+	}
+
 	function load_helper($helper, $data = [])
 	{
 		// Array key to new variable
